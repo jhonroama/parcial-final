@@ -58,16 +58,16 @@ void LEDRGB::loop() {
         }
     }
     if (estado1 == 1 && estado_del_pulsador == 1) {
-      disminuir_contador(contador_01, 32);
+      disminuir_contador(contador_01, 12);
     } else 
     if (estado1 == 1 && estado_del_pulsador == 0) {
-      aumentar_contador(contador_01, 32);
+      aumentar_contador(contador_01, 12);
     } else 
     if (estado2 == 1 && estado_del_pulsador == 1) {
-      disminuir_contador(contador_02, 33);
+      disminuir_contador(contador_02, 13);
     } else 
     if (estado2 == 1 && estado_del_pulsador == 0) {
-      aumentar_contador(contador_02, 33);
+      aumentar_contador(contador_02, 13);
     } else 
     if (estado3 == 1 && estado_del_pulsador == 1) {
       disminuir_contador(contador_03, 27);
