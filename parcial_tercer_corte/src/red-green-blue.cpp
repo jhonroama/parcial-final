@@ -70,10 +70,10 @@ void LEDRGB::loop() {
       aumentar_contador(contador_02, 33);
     } else 
     if (estado3 == 1 && estado_del_pulsador == 1) {
-      disminuir_contador(contador_03, 25);
+      disminuir_contador(contador_03, 27);
     } else 
     if (estado3 == 1 && estado_del_pulsador == 0) {
-      aumentar_contador(contador_03, 25);
+      aumentar_contador(contador_03, 27);
     }
 
     Serial.println(estado_del_pulsador);
